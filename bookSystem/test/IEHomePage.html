@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+    <title>工业工程主页</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+</head>
+
+<body>
+    <h1 align="center">欢迎来到工业工程的家园</h1>
+    <div>
+        <img align="center"
+             height=100%
+             left=50%/ src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2169533086,3449808030&fm=26&gp=0.jpg"
+             width=30%>
+        <img align="center"
+             height=100%
+             left=50%/ src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2169533086,3449808030&fm=26&gp=0.jpg"
+             width=30%>
+        <img align="center"
+             height=100%
+             left=50%/ src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2169533086,3449808030&fm=26&gp=0.jpg"
+             width=30%>
+    </div>
+</body>
+</html>
+
+<%@ Page language="C#" %>
+<!DOCTYPE html>
+<script runat="server">
+    void Page_Load()
+    {
+        lblServerTime.Text = DateTime.Now.ToString();
+    }
+</script>
+<html>
+<head runat="server">
+    <title>服务器端的日期和时间</title>
+    <meta content="5" http-equiv="refresh">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <h1> 欢迎学习ASP.NET 4.0! </h1>
+        当前的日期和时间是：
+        <asp:Label
+                forecolor="red"
+                id="lblServerTime"
+                runat="server"/>
+        <asp:Label
+                id="lblStaticText"
+                runat="server"
+                text="今天天气不错。"/>
+    </form>
+</body>
+</html>

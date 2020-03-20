@@ -1,0 +1,155 @@
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url("../img/bg1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* start 定义最上方*/
+header {
+    height: 120px;
+    /*background-color: #CCDDFF;*/
+    background-image: url("../img/title.jpg");
+    margin-top: -30px;
+}
+
+#title {
+    /*padding-top: 50%;*/
+    text-align: center;
+    /*margin: 0 auto;*/
+    position: relative; /*脱离文档流*/
+    top: 30%; /*偏移*/
+}
+
+/* end 定义最上方*/
+/* 主容器 */
+.mainDiv {
+    float: left;
+    margin-left: 0%;
+    margin-top: 0px;
+    width: 100%;
+    height: 80%;
+
+    /*background-color: #FFEBCD;*/
+}
+
+.divMainLeft {
+    float: left;
+    /*background-color: #7FFFD4;*/
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 60%;
+    height: 80%;
+}
+
+.divMainRight {
+    float: right;
+    /*background-color: #7FFFD4;*/
+    margin-top: 140px;
+    margin-right: 20px;
+    /*width: 26%;*/
+    /*height: 80%;*/
+}
+
+.login-form {
+    margin: 0 auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    width: 350px;
+    height: 275px;
+    background-image: url("../img/login1.jpg");
+    /*以下css用于让登录表单垂直居中在界面,可删除*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*margin-top: -175px;*/
+    /*margin-left: -175px;*/
+}
+
+.title {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.title span {
+    font-size: 18px;
+    color: #353f42;
+}
+
+.title-msg {
+    width: 100%;
+    height: 64px;
+    line-height: 64px;
+}
+
+.title:hover {
+    cursor: default;
+}
+
+.title-msg:hover {
+    cursor: default;
+}
+
+.title-msg span {
+    font-size: 12px;
+    color: #707472;
+}
+
+.input-content {
+    width: 100%;
+    height: 120px;
+}
+
+.input-content input {
+    width: 330px;
+    height: 40px;
+    border: 1px solid #dad9d6;
+    background: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.enter-btn {
+    width: 350px;
+    height: 40px;
+    color: #fff;
+    background: #0bc5de;
+    line-height: 40px;
+    text-align: center;
+    border: 0px;
+}
+
+.foor {
+    width: 100%;
+    height: auto;
+    color: #9b9c98;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.enter-btn:hover {
+    cursor: pointer;
+    background: #1db5c9;
+}
+
+.foor div:hover {
+    cursor: pointer;
+    color: #484847;
+    font-weight: 600;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/* end 登陆设置 */
